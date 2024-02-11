@@ -1,0 +1,76 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&display=swap');
+@import 'colors';
+@import 'sizes';
+
+/* Generals */
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	margin: 0;
+	outline: none;
+	padding: 0;
+	scroll-behavior: smooth;
+	scrollbar-width: thin;
+	cursor: default;
+}
+
+body,
+html,
+#__next {
+	background: $black-primary;
+	color: $white-primary;
+	font-family: Inter, sans-serif;
+	overflow-y: auto;
+	overflow-x: auto;
+	height: 100%;
+	width: 100%;
+}
+
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+pre {
+	cursor: default;
+	user-select: none;
+
+	&:any-link {
+		cursor: pointer;
+		user-select: text;
+	}
+}
+
+/* width < 1800px */
+@media (max-width: 1800px) {
+	html {
+		font-size: 100%;
+	}
+}
+
+/* width < 1080px */
+@media (max-width: 1080px) {
+	html {
+		font-size: 93.75%;
+	}
+}
+
+/* width < 720px */
+@media (max-width: 720px) {
+	html {
+		font-size: 87.5%;
+	}
+}
+
+/* width < 480px */
+@media (max-width: 480px) {
+	html {
+		font-size: 69.25%;
+	}
+}

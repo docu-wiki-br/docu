@@ -1,0 +1,57 @@
+@import '../../styles/colors';
+@import '../../styles/sizes';
+
+.header {
+	background-color: $black-primary;
+	display: flex;
+	justify-content: flex-start;
+
+	& > *:first-child {
+		scale: 0.75;
+	}
+}
+
+.container {
+	background-color: $black-secondary-alt;
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	justify-content: center;
+	text-align: center;
+
+	& > div {
+		display: flex;
+		flex-direction: column;
+		height: 100%;
+		justify-content: center;
+
+		& > .title {
+			font-size: 3rem;
+			font-weight: bold;
+			color: $white-primary;
+		}
+
+		& > .subtitle {
+			font-size: 1.5rem;
+			color: $white-secondary;
+		}
+
+		& > .message {
+			font-size: 2rem;
+			font-weight: bold;
+			color: $white-tertiary;
+		}
+	}
+}
+
+.footer {
+	background-color: $black-primary;
+	bottom: 0;
+	padding: 1rem;
+	text-align: center;
+	width: 100%;
+
+	& > *:first-child {
+		scale: 0.75;
+	}
+}
