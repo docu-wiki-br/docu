@@ -1,8 +1,8 @@
-@import '../styles/colors';
-@import '../styles/sizes';
+@import '@styles/colors';
+@import '@styles/sizes';
 
 .header {
-	background-color: $black-secondary;
+	background-color: $black-primary;
 	display: flex;
 	justify-content: flex-start;
 
@@ -12,7 +12,7 @@
 }
 
 .container {
-	background-color: $black-primary;
+	background-color: $black-secondary-alt;
 	display: flex;
 	flex-direction: column;
 	flex: 1;
@@ -39,13 +39,13 @@
 		& > .message {
 			font-size: 2rem;
 			font-weight: bold;
-			color: $white-primary;
+			color: $white-tertiary;
 		}
 	}
 }
 
 .footer {
-	background-color: $black-secondary;
+	background-color: $black-primary;
 	bottom: 0;
 	padding: 1rem;
 	text-align: center;

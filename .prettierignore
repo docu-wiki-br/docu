@@ -7,6 +7,12 @@ package-lock.json
 pnpm-lock.yaml
 yarn.lock
 
+# Docker
+docker-compose.yaml
+docker-compose.yml
+compose.yaml
+compose.yml
+
 # Builds
 build/
 dist/
@@ -94,11 +100,5 @@ thumbs.db
 # webpack.config.js
 
 # Environments
-.env
-.env.development
-.env.development.local
-.env.local
-.env.production
-.env.production.local
-.env.test
-.env.test.local
+.env*
+# .env*.local

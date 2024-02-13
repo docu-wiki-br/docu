@@ -2,9 +2,9 @@
 import { useRouter } from 'next/navigation'
 
 /* Project */
-import Container from '@/components/Container'
-import CopyRight from '@/components/CopyRight'
-import Logo from '@/components/Logo'
+import Container from '@components/Container'
+import CopyRight from '@components/CopyRight'
+import Logo from '@components/Logo'
 import styles from './index.module.scss'
 
 export default function Page404() {
@@ -33,14 +33,6 @@ export default function Page404() {
 				</div>
 				<div>
 					<p className={styles.message}>{'Erro 404: Página não encontrada.'}</p>
-					<button
-						className={styles.button}
-						onClick={() => {
-							router.push('/')
-						}}
-					>
-						{'Voltar para a página inicial'}
-					</button>
 				</div>
 			</section>
 			<footer className={styles.footer}>

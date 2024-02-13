@@ -2,9 +2,9 @@
 import type { InferGetServerSidePropsType } from 'next'
 
 /* Project */
-import Container from '@/components/Container'
-import CopyRight from '@/components/CopyRight'
-import Logo from '@/components/Logo'
+import Container from '@components/Container'
+import CopyRight from '@components/CopyRight'
+import Logo from '@components/Logo'
 import styles from './index.module.scss'
 
 export default function UnderContruction(
