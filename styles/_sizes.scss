@@ -1,16 +1,7 @@
+/* Screen */
 $screen-max: calc(calc(100% - 112.5rem) / 2); // 1800px
 $screen-med: calc(calc(100% - 90rem) / 2); // 1440px
 $screen-min: calc(calc(100% - 80rem) / 2); // 1280px
-
-/* Inputs */
-$def-max: 100%; // 100%
-$def-lrg: 25rem; // 300px
-$def-med: 15rem; // 240px
-$def-min: 5rem; // 80px
-
-/* Border Radius */
-$radius-max: 0.5rem; // 8px
-$radius-min: 0.25rem; // 4px
 
 /* Font Size */
 $xx-small: xx-small; // 9px
@@ -21,3 +12,18 @@ $large: large; // 18px
 $x-large: x-large; // 24px
 $xx-large: xx-large; // 32px
 
+/* Border Radius */
+$radius-max: 0.5rem; // 8px
+$radius-min: 0.25rem; // 4px
+
+/* Inputs */
+$def-max: 100%; // 100%
+$def-25: 25rem; // 300px
+$def-15: 15rem; // 240px
+$def-5: 5rem; // 80px
+
+/* Spacing */
+$spacing-4: 4rem; // 64px
+$spacing-3: 3rem; // 48px
+$spacing-2: 2rem; // 32px
+$spacing-1: 1rem; // 16px
