@@ -18,3 +18,9 @@
 		font-size: $medium;
 	}
 }
+
+.container:hover {
+	transition: all 0.3s ease;
+	box-shadow: 0 0 20px 0 $black-overlay;
+	cursor: text;
+}

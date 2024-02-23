@@ -7,6 +7,8 @@ import style from './index.module.scss'
 import Button from '@components/Button'
 import Input from '@components/Input'
 
+function handleSignin() {}
+
 export default function SignIn() {
 	return (
 		<>
@@ -33,7 +35,7 @@ export default function SignIn() {
 								label={'Password'}
 								type={'password'}
 							/>
-							<Button>{'Sign In'}</Button>
+							<Button onClick={handleSignin}>{'Sign In'}</Button>
 						</div>
 						<div className={style.divider} />
 						<div className={style.actions}>
