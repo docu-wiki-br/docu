@@ -1,0 +1,16 @@
+@import '@styles/colors';
+@import '@styles/sizes';
+
+.container {
+	background-color: $black-secondary;
+	border-radius: $radius-min;
+	border: none;
+	color: $white-primary;
+	cursor: pointer;
+	font-size: $medium;
+	padding: $spacing-1;
+
+	&:hover {
+		background-color: $black-overlay;
+	}
+}

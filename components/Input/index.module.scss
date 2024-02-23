@@ -1,0 +1,26 @@
+@import '@styles/colors';
+@import '@styles/sizes';
+
+.container {
+	background-color: $black-primary;
+	border-radius: $radius-min;
+	color: $white-primary;
+	display: flex;
+	flex-direction: column;
+	font-size: $medium;
+	gap: 0.25rem;
+	padding: 0.5rem;
+
+	& > input {
+		background-color: $black-primary;
+		border: none;
+		color: $white-primary;
+		font-size: $medium;
+	}
+}
+
+.container:hover {
+	transition: all 0.3s ease;
+	box-shadow: 0 0 20px 0 $black-overlay;
+	cursor: text;
+}

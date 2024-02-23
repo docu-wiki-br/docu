@@ -1,0 +1,81 @@
+@import '@styles/colors';
+@import '@styles/sizes';
+
+.container {
+	display: flex;
+	flex-direction: row;
+	height: 100vh;
+	padding: 0 $screen-max;
+
+	& > .logo {
+		align-items: center;
+		background-color: $black-primary;
+		color: $white-primary;
+		display: flex;
+		flex: 0.6;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	& > .right {
+		align-items: center;
+		background-color: $black-secondary;
+		color: $black-primary;
+		display: flex;
+		flex: 0.4;
+		flex-direction: column;
+		justify-content: center;
+
+		& > div {
+			background-color: $black-tertiary;
+			border-radius: $radius-max;
+			padding: $spacing-1;
+			width: 100%;
+			max-width: 400px;
+
+			& > h1 {
+				color: $white-primary;
+				font-size: $x-large;
+				font-weight: bold;
+			}
+
+			& > p {
+				color: $white-secondary;
+				font-size: $large;
+				margin-bottom: $spacing-1;
+			}
+
+			& > .divider {
+				background-color: $black-overlay;
+				height: 1px;
+				margin: $spacing-1 0;
+				width: 100%;
+			}
+
+			& > .fields {
+				display: flex;
+				flex-direction: column;
+				gap: $spacing-1;
+			}
+
+			& > .actions {
+				display: flex;
+				flex-direction: row;
+				justify-content: space-around;
+				gap: $spacing-1;
+
+				& > div {
+					& > a {
+						color: $white-secondary;
+						font-size: $small;
+						text-decoration: none;
+
+						&:hover {
+							text-decoration: underline;
+						}
+					}
+				}
+			}
+		}
+	}
+}
