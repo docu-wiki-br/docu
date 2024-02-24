@@ -14,7 +14,7 @@
 	padding: 0;
 	scroll-behavior: smooth;
 	scrollbar-width: thin;
-	cursor: default;
+	// cursor: default;
 	border: none;
 }
 
@@ -42,7 +42,7 @@ input,
 label,
 p,
 pre {
-	cursor: default;
+	// cursor: default;
 	user-select: none;
 
 	&:any-link {
